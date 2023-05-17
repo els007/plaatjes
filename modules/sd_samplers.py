@@ -9,8 +9,8 @@ all_samplers = [
 ]
 all_samplers_map = {x.name: x for x in all_samplers}
 
-samplers = []
-samplers_for_img2img = []
+samplers = all_samplers
+samplers_for_img2img = all_samplers
 samplers_map = {}
 
 
